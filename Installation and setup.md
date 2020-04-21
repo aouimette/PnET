@@ -20,4 +20,4 @@ At the very least, we need a `compiler` to convert *human-readable* source code 
      and
     `gdb --version`
 
-    If these commands aren't recognized or you don't get an expected output, doublecheck the Path environment settings (step 2).
+    If these commands aren't recognized or you don't get an expected output, doublecheck the Path environment settings.
