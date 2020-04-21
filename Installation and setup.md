@@ -13,4 +13,10 @@ At the very least, we need a `compiler` to convert *human-readable* source code 
 + Double-click `Path`
 + Click `New`, then `Browse...`, and navigate to where you downloaded MinGW. The path will depend on where you've put the files, but it will look something like: `C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin`
 + Add this path, and click `OK`. 
-  
+3. Check MinGW installation by opening the Command Prompt and typing:
+
+>>`g++ --version`
+
+>>`gdb --version`
+
+>>If the command isn't recognized or you don't get an expected output doublecheck the Path environment settings.
